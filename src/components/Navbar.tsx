@@ -86,7 +86,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         >
           <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-cyan-500 via-indigo-500 to-purple-600 p-[1.5px] shadow-lg shadow-cyan-500/20 group-hover:scale-105 transition-transform overflow-hidden shrink-0">
             <img
-              src="/portfolio_pic.jpeg?v=4"
+              src="src/assets/images/portfolio_pic.jpeg?v=4"
               alt="Maruti P Ghorpade"
               referrerPolicy="no-referrer"
               onError={(e) => {
