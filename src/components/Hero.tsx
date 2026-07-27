@@ -131,7 +131,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenStudio }) => {
               {/* Avatar Frame with Glowing Ring - Aspect 9/16 for Full Portrait Display */}
               <div className="relative w-full max-w-[280px] aspect-[9/16] rounded-2xl overflow-hidden p-1 bg-gradient-to-tr from-cyan-500 via-indigo-500 to-purple-500 shadow-2xl shadow-cyan-500/25 group-hover:scale-[1.02] transition-transform duration-300">
                 <img
-                  src="/portfolio_pic.jpeg?v=4"
+                  src="src/assets/images/portfolio_pic.jpeg?v=4"
                   alt="Maruti P Ghorpade"
                   referrerPolicy="no-referrer"
                   onError={(e) => {
