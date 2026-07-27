@@ -116,7 +116,7 @@ export const AboutSection: React.FC = () => {
                     const target = e.currentTarget;
                     if (!target.dataset.tried) {
                       target.dataset.tried = '1';
-                      target.src = '/mypic.jpeg?';
+                      target.src = 'src/assets/images/portfolio_pic.jpeg?';
                     }
                   }}
                   className="w-full h-full object-cover bg-slate-950 rounded-[11px]"
